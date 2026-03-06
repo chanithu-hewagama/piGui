@@ -1,0 +1,13 @@
+WINDOW "PyGui C++ to Python App" 800 600
+LABEL lbl_welcome 350 50 "Welcome to PyGui!"
+BUTTON btn_click 350 100 "Click Me!"
+BUTTON btn_exit 350 150 "Exit Application"
+LABEL lbl_log_title 50 280 "Console Application Output:"
+LOGAREA 50 300 700 250
+LOG "PyGui initialized successfully."
+LOG "Waiting for user input..."
+LOG "Received event from GUI: CLICK btn_click"
+LOG "The button was clicked! C++ is processing it..."
+LOG "Received event from GUI: CLICK btn_exit"
+LOG "Exit button clicked. Shutting down."
+LOG "Exiting in 2 seconds..."

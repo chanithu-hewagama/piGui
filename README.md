@@ -41,5 +41,3 @@
 - `gui.setLogArea(x, y, w, h)`: Creates a scrolling text area.
 - `gui.log(message)`: Prints to stdout AND the GUI log area.
 - `gui.waitForEvent()` or `gui.hasEvent()`: Fetches user interactions.
-
-
